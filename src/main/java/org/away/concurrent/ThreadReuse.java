@@ -5,6 +5,8 @@ import java.util.Map;
 
 /**
  * 线程复用
+ *
+ * <p>线程复用要是没有及时地释放资源，在后面的线程访问到的资源可能就是上一个线程遗留下来的</p>
  */
 public class ThreadReuse {
 
